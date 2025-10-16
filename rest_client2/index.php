@@ -1,5 +1,5 @@
 <?php
-//load config.php - Asumsi file ini berisi fungsi http_request_get()
+//load config.php 
 include("config/config.php");
  
 // untuk api_key newsapi.org
@@ -52,8 +52,7 @@ $hasil=json_decode($data,true);
     <div class="row">
  
 <?php 
-// 🚨 PENCEGAHAN ERROR DI LINE 52 (PENTING) 🚨
-// Cek: 1. Apakah $hasil adalah array? 2. Apakah statusnya 'ok'? 3. Apakah key 'articles' ada?
+
 if (is_array($hasil) && isset($hasil['status']) && $hasil['status'] == 'ok' && isset($hasil['articles'])) {
     
     // Looping HANYA jika data valid
