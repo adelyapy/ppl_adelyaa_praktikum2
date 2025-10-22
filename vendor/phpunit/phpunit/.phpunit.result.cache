@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"NewsAPITest::testSuccessDataRetrieval":0.009,"NewsAPITest::testAuthenticationFailure":0,"NewsAPITest::testCurlConnectionFailure":0,"SystemTestPraktek::testSuccessDataRetrieval":0.861,"SystemTestPraktek::testAuthenticationFailure":0,"SystemTestPraktek::testCurlConnectionFailure":0.044}}
